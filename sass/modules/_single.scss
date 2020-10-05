@@ -1,0 +1,44 @@
+// single button rules go in here
+
+.dropdown-menu { padding-top:0; }
+.dropdown-menu .circleI { 
+    width:30px; height:30px;
+     -moz-border-radius:50%; 
+     border-radius:50%; 
+     background-color:#eff3f4; 
+     color:#ccc; 
+     text-align:center;
+     font-size:1.7rem;
+     margin:0 10px;
+     padding-top:5px;
+}
+.dropdown-menu li { position:relative; margin-right:0; /*padding:10px 0;*/}
+.dropdown-menu li:hover .emptyCircle {
+    background-color:#fff;
+}
+.dropdown-menu li:hover .circleI {
+    background-color:#fff;
+}
+
+.dropdown-menu .divider { margin:0; }
+
+// rules within single button content
+
+.yellowBoxNav {
+    position:relative;
+    display:inline-block;
+    /*float:right;*/
+    margin-right:30px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color:#f3d83f;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 55px;
+    height: 45px;
+    color:white;
+    z-index: 25;
+}
+
+.yellowBoxNav span { position:relative; top: 8px; font-size:3rem; }
