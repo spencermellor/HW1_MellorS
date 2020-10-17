@@ -1,12 +1,12 @@
-# Spencer Using SASS
+# Spencer Using Ajax
 
 ## Requirements:
 
-Rewrite some of the CSS for the course home page into SASS. Use SASS language to create modules that compile into a production-ready CSS file.
+Use Fetch or XHTTP on a page to load information into the desired sections outlined in the HTML. 
 
 ## Built With:
 
-JavaScript, HTML, CSS, SASS
+JavaScript, HTML, CSS, SASS, JSON
 
 ## Installation, etc: 
 
